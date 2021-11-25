@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "filmstream-ca06b",
+  "private_key_id": "085b2d884cee2cd32bdd25c7a3eb32a9824f4527",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCv/R9jvsSgffom\n/WBrXU5lLnNjKJlO6AKBP0GrRFwDpXqgkeSYoF7x0fk2wYJ6teVk1wKch3OKK0Mm\nCDqMDsr6YP9sWga6qFErqe3qBsXKE1LYnc4Aw1JxUNcLCo8oREE4CT3bgWjdD9MW\n2sl8biEJQMyqyrxAP0iGhssGSWSDieAQp10yLjRzSL2GinDMDJGCRR0/72z5ZanQ\nY3rJeFRWUsP/FZzKnPij5tLV5iNII0KVqc3gZ48xglYtRQDE3Ci9FOOkEZh0oO9r\nnV+hEHotCwWRzOref3OQLQwkEghdk+ptw0wt7sS66AsWPXD0zMmaQ6Vr0xNHq8MV\ntSKgN0PNAgMBAAECggEAFPgXQyKCGbBg+7/RewFzW5V5DK3T9IWq9Lz1hWNgBlQz\nhAnWH8RuA6i15csRUa82Lbl7t2xhPSuR9Ohil3kUwNgJXx7r8dYn08jLzwhvDTiX\ntLU6zDb5rgRIlylzLMRTNArP2sV02fAugejgPIn/uDNHH6uH2izgJp1NeAqLJiv2\nn5XFx8q2VCMgPMb9BDoHXuopSoX9HplePoIM+bs4YU98qflzuFCDCTpw531JTH3s\nfR2k7HcJ7tL6kmo0HHNaZN9aieVNRnXSzxDS4oixCfbuQ8/qOgS2aDWQaoONQPtK\nf1FwWhRvTgv0ITGzeNNeyK6afs754jmRVjs9unotKQKBgQDzUBdfqJqGlp3sRN/r\nf3TP/kwcpSYSjCZV5GsyQczIc4FrUKYI2f+cjJLvUER67p+Sps5ViB5xCj4625z/\nnfm8TMS8n6ROe3LT22RSyciV0V55V6k9wYTL+A4PhlNnLxlVA9wUXenoTxRW0EZW\nyn4sKUDP5hlQC9jClPIQBeC7WQKBgQC5Kle0gnA+gj41gQ/8JDGMp1IX9xaSFRvU\nAwo5id5O8r8vYAm2YwnpXWEMDZy21tKsDhiJZaNVcpkHN8O0tiikq/zeRSv8gUdP\nPgvLOIPPY0XLx1MnbF3vOJcV/P2bSZ9PcQDCWQus9YsAHzAIrrWZ/T9IDiPDNfDu\ndk0q0qnhlQKBgCe6gyaGdDzXqQ+kK1/bnuo7Xpgqyy2qHrRVqL87CUINwisQrxuw\n5NDeDzvuQlBEWF/sxrImmLnib0jTBS6jz9xUOKeH9Z8u/w/iud3evtbfqepsSuEf\nkRxw83LLfyDRCvTbvXrB3uikyPBn76RKShHR5phLvQRZ+tnC0keVfh15AoGBAKdj\nZMfUxv1rJiueEcJBQd3CAI+Tmf7TQEXnvZ2IScSa40RDkGQlofcpqCqKP6p2Bxrs\n3zeN/xqmrzn8Klo59gHvTHfuljX89GbpUyYSX+3h812lQkG4UC6KvOJuwyBXbMIX\nCLWoY8qmalLg3r5qmdasPkG4LpIxOC2KGnZk3JgFAoGAPUpStkeyBEAkAnXXtuAI\nMWzRKFu1TZ1mKIQFRRwfop0XS2SPD/4yEj8ZwoXhJ9DqNT2w6aS+4kDRqFl6R8bx\nvJK00nNlKaailwVISfRPv9Yu1oh6aF2Ad8xC0rwxVKufi/8dUH1w5+ZpyMZicDeY\nuh3oIYOedlwC9XOC064Xgts=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-e8uvd@filmstream-ca06b.iam.gserviceaccount.com",
+  "client_id": "111715867700722675337",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-e8uvd%40filmstream-ca06b.iam.gserviceaccount.com"
+}

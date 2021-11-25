@@ -4,6 +4,7 @@ const app = express();
 const cors = require("cors");
 const mongoose = require("mongoose");
 var morgan = require('morgan')
+const path = require("path")
 
 
 const filmRouter = require('./routes/film')
@@ -23,6 +24,7 @@ app.use(express.json());
 app.use("/films", filmRouter)
 app.use("/auth", authRouter)
 app.use(revueRouter)
+app.use("/",express.static(path.join("angular")))
 
 mongoose.connect(db_hosted, {
     useNewUrlParser: true,
@@ -31,9 +33,8 @@ mongoose.connect(db_hosted, {
     useCreateIndex: true
 });
 
-
 app.get("/", (req, res) => {
-    res.send("Welcome to FilmStream");
+    res.sendFile(path.join(__dirname,"angular","index.html"))
 })
 
 app.listen(port, () => {
