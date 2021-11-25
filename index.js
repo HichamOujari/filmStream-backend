@@ -13,7 +13,7 @@ const revueRouter = require('./routes/revue')
 
 const port = process.env.PORT || 3001;
 const db_local = 'mongodb://localhost:27017/movies'
-const db_hosted = 'mongodb://localhost:27017/movies'
+const db_hosted = 'mongodb+srv://root:root@cluster0.mjmib.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 app.use(bodyParser.json());
 app.use(morgan('dev'))
