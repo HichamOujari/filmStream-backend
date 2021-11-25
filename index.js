@@ -24,7 +24,7 @@ app.use("/films", filmRouter)
 app.use("/auth", authRouter)
 app.use(revueRouter)
 
-mongoose.connect(db_hosted, {
+mongoose.connect(db_local, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
