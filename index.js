@@ -13,7 +13,7 @@ const revueRouter = require('./routes/revue')
 
 const port = 3001;
 const db_local = 'mongodb://localhost:27017/movies'
-const db_hosted = 'mongodb://localhost:27017/movies'
+const db_hosted = 'mongodb://iad2-c16-0.mongo.objectrocket.com:54660,iad2-c16-2.mongo.objectrocket.com:54660,iad2-c16-1.mongo.objectrocket.com:54660/movies?replicaSet=3aa74dc0afdd4a198d83c936f88e3060&ssl=true'
 
 app.use(bodyParser.json());
 app.use(morgan('dev'))
@@ -24,7 +24,7 @@ app.use("/films", filmRouter)
 app.use("/auth", authRouter)
 app.use(revueRouter)
 
-mongoose.connect(db_local, {
+mongoose.connect(db_hosted, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
