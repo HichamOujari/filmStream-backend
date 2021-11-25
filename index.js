@@ -12,6 +12,8 @@ const revueRouter = require('./routes/revue')
 
 
 const port = 3001;
+const db_local = 'mongodb://localhost:27017/movies'
+const db_hosted = 'mongodb://localhost:27017/movies'
 
 app.use(bodyParser.json());
 app.use(morgan('dev'))
@@ -22,7 +24,7 @@ app.use("/films", filmRouter)
 app.use("/auth", authRouter)
 app.use(revueRouter)
 
-mongoose.connect('mongodb://localhost:27017/movies', {
+mongoose.connect(db_local, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
