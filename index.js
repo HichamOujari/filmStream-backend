@@ -10,6 +10,7 @@ const path = require("path")
 const filmRouter = require('./routes/film')
 const authRouter = require('./routes/auth')
 const revueRouter = require('./routes/revue')
+const favorisRouter = require('./routes/favoris')
 
 
 const port = process.env.PORT || 3001;
@@ -24,6 +25,7 @@ app.use(express.json());
 app.use("/films", filmRouter)
 app.use("/auth", authRouter)
 app.use(revueRouter)
+app.use(favorisRouter)
 app.use("/",express.static(path.join("angular")))
 
 mongoose.connect(db_hosted, {

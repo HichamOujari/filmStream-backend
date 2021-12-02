@@ -18,6 +18,8 @@ const RevueSchema = new mongoose.Schema({
 const FavorisSchema = new mongoose.Schema({
     idFilm: { type: String },
     idUser: { type: String },
+    poster_path: { type: String },
+    title: { type: String },
 })
 
 const User = mongoose.model("user", UserSchema);
@@ -50,7 +52,7 @@ module.exports = {
     async addRevue(data) {
         const revue = new Revue({
             idFilm: data["idFilm"],
-            name: data["name"],
+            idUser: data["idUser"],
             date: data["date"],
             content: data["content"],
             rate: data["rate"]
@@ -67,6 +69,8 @@ module.exports = {
         const favoris = new Favoris({
             idFilm: data["idFilm"],
             idUser: data["idUser"],
+            poster_path: data["poster_path"],
+            title: data["title"],
         })
         return await favoris.save();
     },
@@ -76,5 +80,8 @@ module.exports = {
         return listFavoris;
     },
 
-
+    async isInFavoris(idUser,idFilm) {
+        const listFavoris = await Favoris.find({ idUser: idUser,idFilm:idFilm });
+        return listFavoris;
+    },
 }
